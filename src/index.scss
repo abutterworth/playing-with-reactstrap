@@ -1,3 +1,5 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +13,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.row.demo > div {
+  border:solid 1px #fff;
+  background: #ccc;
+  padding-top:1rem;
+  padding-bottom:1rem;
 }
